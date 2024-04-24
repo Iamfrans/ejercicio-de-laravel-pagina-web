@@ -14,8 +14,9 @@
             color: #343a40; /* Color del texto */
         }
         .jumbotron {
-            background-color: #dc3545; /* Color de fondo del jumbotron */
-            color: #ffffff; /* Color del texto del jumbotron */
+            background-image: url('https://source.unsplash.com/1600x900/?food'); /* Imagen de fondo */
+            background-size: cover;
+            color: #ffffff; /* Color del texto */
         }
         .card {
             background-color: #ffffff; /* Color de fondo de las tarjetas */
@@ -66,7 +67,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLtgQcNbCc3qQjslMDErehIpnLlp2toBaBHQ&s" class="card-img-top" alt="Placeholder">
+                    <img src="https://source.unsplash.com/400x300/?healthy,food" class="card-img-top" alt="Recetas Saludables">
                     <div class="card-body">
                         <h5 class="card-title">Recetas Saludables</h5>
                         <p class="card-text">Encuentra recetas nutritivas y deliciosas para mantener un estilo de vida saludable.</p>
@@ -76,7 +77,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://ssl.sitew.org/images/blog/articles/site-cuisine/plat.jpeg" class="card-img-top" alt="Placeholder">
+                    <img src="https://source.unsplash.com/400x300/?dessert" class="card-img-top" alt="Postres y Dulces">
                     <div class="card-body">
                         <h5 class="card-title">Postres y Dulces</h5>
                         <p class="card-text">Descubre recetas dulces y tentadoras para satisfacer tu antojo de postre.</p>
@@ -86,7 +87,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://content-cocina.lecturas.com/medio/2024/03/11/lomo-a-la-sal-con-pisto-de-verduras_00000000_240403162954_600x600.jpg" class="card-img-top" alt="Placeholder">
+                    <img src="https://source.unsplash.com/400x300/?traditional,food" class="card-img-top" alt="Platos Tradicionales">
                     <div class="card-body">
                         <h5 class="card-title">Platos Tradicionales</h5>
                         <p class="card-text">Explora recetas clásicas y auténticas de diferentes culturas y regiones del mundo.</p>

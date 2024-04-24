@@ -66,7 +66,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Placeholder">
+                    <img src="https://source.unsplash.com/400x200/?politics" class="card-img-top" alt="Política">
                     <div class="card-body">
                         <h5 class="card-title">Política</h5>
                         <p class="card-text">Las últimas noticias sobre política nacional e internacional.</p>
@@ -76,7 +76,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Placeholder">
+                    <img src="https://source.unsplash.com/400x200/?technology" class="card-img-top" alt="Tecnología">
                     <div class="card-body">
                         <h5 class="card-title">Tecnología</h5>
                         <p class="card-text">Descubre las innovaciones tecnológicas y los últimos gadgets.</p>
@@ -86,7 +86,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Placeholder">
+                    <img src="https://source.unsplash.com/400x200/?sports" class="card-img-top" alt="Deportes">
                     <div class="card-body">
                         <h5 class="card-title">Deportes</h5>
                         <p class="card-text">Resultados, análisis y comentarios de los eventos deportivos más importantes.</p>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Página de Videojuegos</title>
+    <title>Página de Turismo</title>
     <!-- Agregar Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Estilos personalizados -->
@@ -50,15 +50,15 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Página de Videojuegos</a>
+            <a class="navbar-brand" href="#">Página de Turismo</a>
         </div>
     </nav>
 
     <div class="jumbotron text-center">
-        <h1 class="display-4">¡Bienvenido a tu Página de Videojuegos Favorita!</h1>
-        <p class="lead">Descubre las últimas noticias, reseñas y novedades sobre tus videojuegos preferidos.</p>
+        <h1 class="display-4">¡Descubre Destinos Increíbles!</h1>
+        <p class="lead">Explora los lugares más fascinantes del mundo y planifica tu próximo viaje.</p>
         <hr class="my-4">
-        <p>Explora nuestra colección y sumérgete en el mundo de los videojuegos.</p>
+        <p>Sumérgete en la cultura, la historia y la belleza de diferentes destinos turísticos.</p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Explorar</a>
     </div>
 
@@ -66,30 +66,30 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Placeholder">
+                    <img src="https://source.unsplash.com/400x200/?travel" class="card-img-top" alt="Travel Destination">
                     <div class="card-body">
-                        <h5 class="card-title">Últimas Novedades</h5>
-                        <p class="card-text">Descubre los últimos lanzamientos y noticias del mundo de los videojuegos.</p>
+                        <h5 class="card-title">Destinos Exóticos</h5>
+                        <p class="card-text">Descubre lugares exóticos y lejanos que te dejarán sin aliento.</p>
                         <a href="#" class="btn btn-primary">Ver Más</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Placeholder">
+                    <img src="https://source.unsplash.com/400x200/?beach" class="card-img-top" alt="Beach Destination">
                     <div class="card-body">
-                        <h5 class="card-title">Reseñas</h5>
-                        <p class="card-text">Lee nuestras reseñas sobre los juegos más populares y descubre qué opinamos.</p>
+                        <h5 class="card-title">Playas Paradisíacas</h5>
+                        <p class="card-text">Relájate en playas de aguas cristalinas y arenas blancas.</p>
                         <a href="#" class="btn btn-primary">Ver Más</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Placeholder">
+                    <img src="https://source.unsplash.com/400x200/?mountain" class="card-img-top" alt="Mountain Destination">
                     <div class="card-body">
-                        <h5 class="card-title">Gameplay</h5>
-                        <p class="card-text">Mira los videos de gameplay y descubre cómo jugar los últimos lanzamientos.</p>
+                        <h5 class="card-title">Montañas Majestuosas</h5>
+                        <p class="card-text">Explora las cumbres más altas y disfruta de vistas panorámicas impresionantes.</p>
                         <a href="#" class="btn btn-primary">Ver Más</a>
                     </div>
                 </div>

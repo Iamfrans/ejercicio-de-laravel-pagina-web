@@ -4,42 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Página Gamer con Luces RGB</title>
+    <title>Página de Viajes y Turismo</title>
     <!-- Agregar Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Estilos personalizados -->
     <style>
         body {
-            background-color: #0f0f0f; /* Color de fondo oscuro */
-            color: #ffffff; /* Color del texto */
-        }
-        .container {
-            margin-top: 50px; /* Espacio superior */
+            background-color: #f8f9fa; /* Color de fondo */
+            color: #343a40; /* Color del texto */
         }
         .jumbotron {
-            background-color: #1a1a1a; /* Color de fondo de la jumbotron */
-            color: #ffffff; /* Color del texto de la jumbotron */
+            background-color: #007bff; /* Color de fondo del jumbotron */
+            color: #ffffff; /* Color del texto del jumbotron */
+        }
+        .card {
+            background-color: #ffffff; /* Color de fondo de las tarjetas */
+            border: none; /* Sin borde */
+        }
+        .card-title {
+            color: #343a40; /* Color del título de la tarjeta */
+        }
+        .card-text {
+            color: #6c757d; /* Color del texto de la tarjeta */
         }
         .btn-primary {
-            background-color: #ff6600; /* Color de fondo del botón */
-            border-color: #ff6600; /* Color del borde del botón */
+            background-color: #007bff; /* Color de fondo del botón */
+            border-color: #007bff; /* Color del borde del botón */
         }
         .btn-primary:hover {
-            background-color: #ff8500; /* Cambio de color al pasar el ratón sobre el botón */
-            border-color: #ff8500; /* Cambio de color del borde al pasar el ratón sobre el botón */
+            background-color: #0056b3; /* Cambio de color al pasar el ratón sobre el botón */
+            border-color: #0056b3; /* Cambio de color del borde al pasar el ratón sobre el botón */
         }
         .navbar {
-            background-color: #1a1a1a; /* Color de fondo de la barra de navegación */
+            background-color: #007bff; /* Color de fondo de la barra de navegación */
         }
         .navbar-brand {
             color: #ffffff; /* Color del texto del enlace de la barra de navegación */
         }
         .navbar-brand:hover {
-            color: #ff6600; /* Cambio de color al pasar el ratón sobre el enlace de la barra de navegación */
-        }
-        .card {
-            background-color: #1a1a1a; /* Color de fondo de las tarjetas */
-            color: #ffffff; /* Color del texto de las tarjetas */
+            color: #f8f9fa; /* Cambio de color al pasar el ratón sobre el enlace de la barra de navegación */
         }
     </style>
 </head>
@@ -47,35 +50,47 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Página Gamer</a>
+            <a class="navbar-brand" href="#">Página de Viajes y Turismo</a>
         </div>
     </nav>
 
     <div class="jumbotron text-center">
-        <h1 class="display-4">¡Bienvenido a la Página Gamer!</h1>
-        <p class="lead">Aquí encontrarás contenido emocionante relacionado con el mundo de los videojuegos.</p>
+        <h1 class="display-4">¡Bienvenido a la Página de Viajes y Turismo!</h1>
+        <p class="lead">Descubre destinos emocionantes, planifica tus próximas vacaciones y vive aventuras inolvidables.</p>
         <hr class="my-4">
-        <p>Haz clic en el botón de abajo para comenzar tu aventura.</p>
+        <p>Explora nuestra colección y encuentra inspiración para tu próximo viaje.</p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Explorar</a>
     </div>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="card mb-4">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Placeholder">
                     <div class="card-body">
-                        <h5 class="card-title">Juego del Mes</h5>
-                        <p class="card-text">Descubre cuál es el juego del mes y prepárate para una experiencia épica.</p>
+                        <h5 class="card-title">Destinos Populares</h5>
+                        <p class="card-text">Descubre los destinos más visitados y populares del mundo.</p>
                         <a href="#" class="btn btn-primary">Ver Más</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="card mb-4">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Placeholder">
                     <div class="card-body">
-                        <h5 class="card-title">Noticias de Última Hora</h5>
-                        <p class="card-text">Mantente actualizado con las últimas noticias y novedades del mundo gamer.</p>
-                        <a href="#" class="btn btn-primary">Leer Más</a>
+                        <h5 class="card-title">Aventuras Únicas</h5>
+                        <p class="card-text">Explora actividades emocionantes y experiencias únicas en diferentes destinos.</p>
+                        <a href="#" class="btn btn-primary">Ver Más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Placeholder">
+                    <div class="card-body">
+                        <h5 class="card-title">Consejos de Viaje</h5>
+                        <p class="card-text">Encuentra consejos útiles para planificar tus vacaciones y viajes de manera segura y conveniente.</p>
+                        <a href="#" class="btn btn-primary">Ver Más</a>
                     </div>
                 </div>
             </div>
